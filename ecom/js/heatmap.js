@@ -1,6 +1,6 @@
 const ses_id = uuidv4();
 const pg_id = "f8eccf87-9b5d-4f24-9032-64e67e783d51";
-var socket = io("http://heatmap-ws.herokuapp.com");
+var socket = io("https://heatmap-ws.herokuapp.com");
 // var socket = io("http://0.0.0.0:8765");
 
 socket.on('connect', function() {
