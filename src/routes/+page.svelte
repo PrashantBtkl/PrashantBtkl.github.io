@@ -36,7 +36,6 @@ If you’re curious about my journey or want to connect, check out the links bel
 
 <style>
 :global(body) {
-    font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #333;
@@ -44,7 +43,6 @@ If you’re curious about my journey or want to connect, check out the links bel
 
 
 h1 {
-  font-family: Gelasio;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
