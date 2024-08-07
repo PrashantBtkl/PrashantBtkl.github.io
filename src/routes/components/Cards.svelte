@@ -6,21 +6,6 @@
   ];
 </script>
 
-<svelte:head>
-  <link href="https://fonts.googleapis.com/css?family=Gelasio" rel="stylesheet">
-</svelte:head>
-<h1>Prashant Bhatkal</h1>
-<body>
-<div class="about">
-Hello! 👋 I’m a software engineer with a diverse background. Earlier, I used to be a bug bounty hunter, uncovering vulnerabilities in programs like Microsoft, Google, and RazorPay.
-<br>
-Fast forward to today—I’ve transitioned to the backend realm, where I wield languages like Go (Golang) and Elixir to build robust systems. By day, I’m immersed in code, optimizing performance and ensuring reliability. But my curiosity I’m also exploring Kotlin and Svelte for Android and frontend development during my off-hours.
-<br>
-Recently, I’ve delved into the fascinating world of agentic LLM (Language Model) tools. I believe Machine Learning has the potential to revolutionize how we interact with information and automate tasks. 
-<br>
-If you’re curious about my journey or want to connect, check out the links below! 
-</div>
-
 <div class="container">
   {#each cards as card}
     <a href={card.link} target="_blank" rel="noopener noreferrer">
@@ -32,42 +17,14 @@ If you’re curious about my journey or want to connect, check out the links bel
     </a>
   {/each}
 </div>
-</body>
 
 <style>
-:global(body) {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
-  }
-
-
-h1 {
-  font-family: Gelasio;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.about {
+  .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    min-height: 20vh;
-    max-width: 100%;
-    padding: 20px;
-    text-align: center;
-	position: relative;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    min-height: 20vh;
+    min-height: 100vh;
     padding: 20px;
   }
 
@@ -104,5 +61,4 @@ h1 {
   a:hover {
     background-color: #cedaed;
   }
-
 </style>
