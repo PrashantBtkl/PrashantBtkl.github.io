@@ -14,8 +14,7 @@
 <div class="about">
 Hello! 👋 I’m a software engineer with a diverse background. Earlier, I used to be a bug bounty hunter, uncovering vulnerabilities in programs like Microsoft, Google, and RazorPay.
 <br>
-Fast forward to today—I’ve transitioned to the backend realm, where I wield languages like Go (Golang) and Elixir to build robust systems. By day, I’m immersed in code, optimizing performance and ensuring reliability. But my curiosity I’m also exploring Kotlin and Svelte for Android and frontend development during my off-hours.
-<br>
+Fast forward to today—I’ve transitioned to the backend, where I work with languages like Go (Golang) and Elixir to build robust systems.
 Recently, I’ve delved into the fascinating world of agentic LLM (Language Model) tools. I believe Machine Learning has the potential to revolutionize how we interact with information and automate tasks. 
 <br>
 If you’re curious about my journey or want to connect, check out the links below! 
