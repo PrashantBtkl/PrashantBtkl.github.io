@@ -12,12 +12,8 @@
 <h1>Prashant Bhatkal</h1>
 <body>
 <div class="about">
-Hello! 👋 I’m a software engineer with a diverse background. Earlier, I used to be a bug bounty hunter, uncovering vulnerabilities in programs like Microsoft, Google, and RazorPay.
-<br>
-Fast forward to today—I’ve transitioned to the backend, where I work with languages like Go (Golang) and Elixir to build robust systems.
-Recently, I’ve delved into the fascinating world of agentic LLM (Language Model) tools. I believe Machine Learning has the potential to revolutionize how we interact with information and automate tasks. 
-<br>
-If you’re curious about my journey or want to connect, check out the links below! 
+I build software with Golang, Elixir, Python and Svelte. Use the links below to connect with me or view my work!
+ 
 </div>
 
 <div class="container">
